@@ -1,0 +1,8 @@
+1. perintah install =>
+npm install firebase
+
+2. api => 
+AIzaSyBhbcuAWJWzzNn_h9yU4wsaVroih524fAM
+
+3. image =>
+https://www.facebook.com/groups/247462721782746/posts/714330525095961/
