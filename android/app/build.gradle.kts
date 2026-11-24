@@ -11,16 +11,16 @@ android {
     namespace = "com.example.tryfirebase"
     // compileSdk = flutter.compileSdkVersion
     compileSdk = 37
-    ndkVersion = flutter.ndkVersion
+    // ndkVersion tidak di-set: tidak ada kode native di project ini, dan
+    // NDK yang terpasang di mesin ini sedang tidak lengkap.
 
     compileOptions {
-        isCoreLibraryDesugaringEnabled = true,
+        isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
 
     defaultConfig {
-        CoreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4"),
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.tryfirebase"
         // You can update the following values to match your application needs.
@@ -48,4 +48,8 @@ kotlin {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }

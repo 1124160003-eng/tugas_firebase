@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAwpdb5xup0u87luCz04CyrZORmjsjtRyg',
-    appId: '1:144588025310:web:f21fa710476d076186014f',
-    messagingSenderId: '144588025310',
-    projectId: 'pertemuan-9-a85b7',
-    authDomain: 'pertemuan-9-a85b7.firebaseapp.com',
-    storageBucket: 'pertemuan-9-a85b7.firebasestorage.app',
-    measurementId: 'G-Y8G1E69VJ6',
+    apiKey: "AIzaSyAwpdb5xup0u87luCz04CyrZORmjsjtRyg",
+    authDomain: "pertemuan-9-a85b7.firebaseapp.com",
+    projectId: "pertemuan-9-a85b7",
+    storageBucket: "pertemuan-9-a85b7.firebasestorage.app",
+    messagingSenderId: "144588025310",
+    appId: "1:144588025310:web:f21fa710476d076186014f",
+    measurementId: "G-Y8G1E69VJ6"
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA7p9mQgQAd3s0wlQSXeapmXfBycBnTH3g',
-    appId: '1:730973540987:android:cf070a8335f9cf0e3088de',
-    messagingSenderId: '730973540987',
-    projectId: 'fbproject-274d0',
-    storageBucket: 'fbproject-274d0.firebasestorage.app',
+    apiKey: 'AIzaSyAwpdb5xup0u87luCz04CyrZORmjsjtRyg',
+    appId: '1:144588025310:android:a1d72c2c762b92c986014f',
+    messagingSenderId: '144588025310',
+    projectId: 'pertemuan-9-a85b7',
+    storageBucket: 'pertemuan-9-a85b7.firebasestorage.app',
   );
 }
